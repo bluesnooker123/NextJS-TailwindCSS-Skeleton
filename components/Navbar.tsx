@@ -11,7 +11,9 @@ const Navbar: React.FC<NavbarProps> = (props) => {
     <div className="bg-black text-white flex justify-between items-center">
       <div className="flex items-center">
         <Link href="/">
+          <>
             <Image className="" alt="Logo Image" src={Logo} width={100} />
+          </>
         </Link>
         <span className="text-5xl font-Righteous">{props.str}</span>
       </div>
