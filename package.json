@@ -1,5 +1,5 @@
 {
-  "name": "Next.js + TailwindCSS Skeleton",
+  "name": "Skeleton",
   "private": true,
   "scripts": {
     "dev": "next dev",

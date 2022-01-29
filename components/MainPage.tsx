@@ -4,7 +4,7 @@ interface MainPageProps {
   setMessage: Function;
 }
 
-const Navbar: React.FC<MainPageProps> = (props) => {
+const MainPage: React.FC<MainPageProps> = (props) => {
   const [SpinValue, setSpinValue] = useState(1);
 
   function SpinValueFromInput(amount: number) {     // The minimum value of input box is 1
@@ -12,7 +12,7 @@ const Navbar: React.FC<MainPageProps> = (props) => {
   }
 
   return (
-    <div className="bg-blue-500 text-green">
+    <div className="bg-blue-500 text-green-900">
       <div className="flex flex-col py-5 items-center justify-between">
         <span className="my-2 font-custom">This is custom font style and please type text to change message</span>
         <input className="my-2 font-Righteous" type="number" value={SpinValue}
@@ -23,6 +23,6 @@ const Navbar: React.FC<MainPageProps> = (props) => {
   );
 };
 
-export default Navbar;
+export default MainPage;
 
 
