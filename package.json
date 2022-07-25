@@ -1,5 +1,5 @@
 {
-  "name": "Skeleton",
+  "name": "skeleton",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,9 +8,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "12.0.7",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "sass": "^1.47.0"
   },
   "devDependencies": {
