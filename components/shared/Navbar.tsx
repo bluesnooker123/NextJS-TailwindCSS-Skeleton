@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Logo from '../assets/imgs/logo.png';
+import Logo from '../../assets/imgs/logo.png'
 
 interface NavbarProps {
   str: string;
